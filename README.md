@@ -1,2 +1,18 @@
 # gitlab-mirror-sync
-A shell script to automatically trigger the mirror sync of the available repos in Gitlab
+This project contains a shell script designed to automate the synchronization of available repositories in GitLab.
+
+## Prerequisites
+- `GITLAB_URL`: the GitLab url of the instance
+- `GITLAB_TOKEN`: the user's GitLab generated access token
+
+## How to run
+
+Make file executable:
+```shell
+chmod a+x script.sh
+```
+
+Execute:
+```shell
+./script.sh
+```
